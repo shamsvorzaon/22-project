@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0px 106px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+nav a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+.li > a :hover {
+  color: #ff3c00;
+  
+}
+
+.post-btn {
+  background: #fff;
+  color: #ff3c00;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid #ff3c00;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.post-btn :focus{
+  background: #ff3c00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 -30px;
+}
+
+.top-bar > h2{
+  margin-left: -250px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.search-box input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 0px;
+}
+.search-box button {
+  padding: 10px 20px;
+  border: none;
+  background: #002060;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+} 
+
+.card_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0px -55px;
+}
+
+.card{
+  width: 290px;
+  height: 290px;
+  border-radius: 30px;
+  background-color: rgb(103, 103, 103);
+  box-shadow: 0px 4px 13.3px 0px #00000040;
+  margin: 0px;
+}
+
+.card_image{
+  width: 184px;
+  height: 118px;
+  margin: 15px 54px;
+
+}
+
+.card_title{
+  padding: 0px 100px;
+}
+
+.card_description{
+  display: flex;
+  padding: 17px;
+}
+
+.Coins{
+  padding-left: 70px;
+}
+
+.coin{
+  padding: 0px 10px;
+}
+
+.btn{
+  padding: 24px 85px;
+}
+
+.history > span > img{
+  width: 20px;
+  
+}
+
+
+
